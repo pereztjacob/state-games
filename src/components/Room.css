@@ -1,5 +1,27 @@
 .room{
   background-size: cover;
   height: 700px;
-  color: white;
+  color: rgb(187, 108, 34);
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p{
+  font-size: 30px;
+}
+
+li{
+  display: inline;
+}
+
+#roomLayer{
+  height: 100%;
+  background-color: rgba(56, 30, 85, 0.6); 
 }

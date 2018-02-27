@@ -80,3 +80,12 @@ const west = {
     e: 'central'
   }
 };
+export const rooms = {
+  central,
+  north,
+  south,
+  east,
+  west
+};
+
+export const start = central;

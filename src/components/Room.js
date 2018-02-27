@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Items from './Items';
-// import './room.css';
+import './Room.css';
 
 const directions = {
   e: 'East',

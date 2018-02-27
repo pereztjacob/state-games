@@ -1,7 +1,9 @@
+import centralImage from '../resources/central.jpg';
+
 const central = {
   title: 'the central room',
   description: 'there is a room with a door in each cardinal direction',
-  image: '#',
+  image: centralImage,
   items: [
     {
       key: 'first item',

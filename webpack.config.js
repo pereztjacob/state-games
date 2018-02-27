@@ -22,6 +22,12 @@ module.exports = {
     new HtmlPlugin({ template: './src/index.html' })
   ],
   module: {
+    loaders: [
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url?limit=25000'
+      }
+    ],
     rules: [
       {   
         test: /\.js$/,
